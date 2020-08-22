@@ -1,0 +1,19 @@
+{
+  "name": "codingwithluce",
+  "version": "1.0.0",
+  "description": "ZeroToHeroDev followed the stream: 22nd August 2020",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/LuceCarter/CodingWithLuceFinalFinal.git"
+  },
+  "author": "Luce Carter (https:twitter.com/lucecarter1)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/LuceCarter/CodingWithLuceFinalFinal/issues"
+  },
+  "homepage": "https://github.com/LuceCarter/CodingWithLuceFinalFinal#readme"
+}
