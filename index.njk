@@ -6,6 +6,22 @@ pagination:
   reverse: true
   alias: posts
 ---
+{# <div class="hero-image">
+  <div class="hero-text">
+  <section class="hero">
+    <h2>Welcome!</h2>
+    <p>My name is Luce Carter. I'm a Xamarin loving Software developer, blogger and speaker based in Manchester, UK.</p>
+  <section>
+  </div>
+</div> #}
+
+<div class="hero-image">
+  <div class="hero-text">
+    <h1>Welcome!</h1>
+    <p>My name is Luce Carter. I'm a Xamarin loving Software developer, blogger and speaker based in Manchester, UK.</p>    
+  </div>
+</div>
+
 {% for post in posts %}
   <article>
 
@@ -14,12 +30,12 @@ pagination:
     </h1>
 
     <time datetime="{{ post.date | dateIso }}">{{ post.date | dateReadable }}</time>
-    </br>
-    </br>
-    {% excerpt post %}
-    </br>
-    </br>
-    <a href="{{ post.url | url }}">Read more</a>
+  </br>
+</br>
+{% excerpt post %}
+</br>
+</br>
+<a href="{{ post.url | url }}">Read more</a>
 
-  </article>
+</article>
 {% endfor %}
