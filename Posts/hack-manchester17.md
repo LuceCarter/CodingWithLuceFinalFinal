@@ -28,7 +28,7 @@ Now, Clare and I are list loving planners so we took our time to discuss our app
 
 So we had some discussions about what Katy experiences, the impact it has on her life and what kinds of things we would want to put in the app, and form that Menopaws was born!
 
-![Wall of post-it notes](../../../mages/hack-manchester17/wall.jpeg)
+![Wall of post-it notes](../../Images/hack-manchester17/wall.jpeg)
 
 Our work flow involved using Github for version control, Trello to track our work, post-its and the whiteboard to plan ideas, and regular breaks. We used the Pomodoro concept; 25 minutes work followed by a short break. It allowed us to keep our minds fresh and bodies stretched. We also ensured neither of us skipped a break just because we were in the middle of something.
 
@@ -38,7 +38,7 @@ Once Clare returned and later Katy, we cracked on with what needed doing. We had
 
 In the app, we didn’t achieve that much in terms of functionality, for reasons including our ‘looking after ourselves’ first approach and technical issues I will outline later on when I discuss how we made the app. But we had a fantastic time.
 
-![A screenshot of the homepage of our ‘final’ product at the Hackathon](../../../mages/hack-manchester17/app.png)
+![A screenshot of the homepage of our ‘final’ product at the Hackathon](../../Images/hack-manchester17/app.png)
 
 The crisis button implemented on the homepage, as shown above, gave a user the ability to send a text to a loved one or emergency services to request help. Now one of the things we did was set it up to use the Clockwork SMS API for sending messages, to allow us to enter the competition titled “Using SMS to save lives”. Of course using an SMS API on a mobile phone seems silly but sometimes at a hackathon it is just fun to enter a competition.
 
@@ -75,5 +75,5 @@ For those interested, I just wanted to make a quick list to explain from a techn
 - Trello for task planning
 - Github for version control
 
-![Team Menopaws showing off the app](../../../mages/hack-manchester17/team.jpeg)
+![Team Menopaws showing off the app](../../Images/hack-manchester17/team.jpeg)
 ### Team Menopaws (L->R) Katy, Clare and myself holding up the app running my Galaxy S8

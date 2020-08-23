@@ -19,7 +19,7 @@
 <p>Now it may seem like an odd question because surely the way you interact with a website is so different? Well not so much anymore. Yes the power and graphic capabilities of a browser on a computer are very different and you will have a larger screen space. But with the rise of touchscreen laptops and screens these days, touch interaction on a browser isn’t so unusual.</p>
 <p>C# and .Net in general allows you to make a large variety of project types, from mobile apps either native or cross-platform with Xamarin to ASP.Net to IoT Console applications and many more.</p>
 <p>The project structure from my experiment can be seen below but it involves four projects in my solution. A Xamarin.Forms application which contains the code for deploying to iOS and Android as well as the shared UI page I created, the platform-specific projects as part of my Xamarin.Forms project and a ASP.Net Core MVC web app which contains the work I did with Ooui to reference this shared page.</p>
-<p><img src="../../../mages/ooui/solution.png" alt="Solution for the project in Visual Studio"></p>
+<p><img src="../../Images/ooui/solution.png" alt="Solution for the project in Visual Studio"></p>
 <p>So following James’ excellent post, I created the ASP.Net website project first, added the required Nuget packages for Ooui and Xamarin.Forms and then did the initial configuration.</p>
 <p>I also added a reference from my website project to the mobile project so I could reference the LuceCarterMobileOouiPage.xaml page that was created for me by the Xamarin.Forms project template. I ensured my website was configured to run the XAML page as the startup page in the HomeController.cs file and then ran the website.</p>
 <pre><code class="language-csharp">    public IActionResult Index()
@@ -31,9 +31,9 @@
 </code></pre>
 <p>I wasn’t sure how well they would play together but straight out of the box with no issue, bam! I got the amazing “Welcome to Xamarin Forms!” message many of us Xamarin developers think of fondly.</p>
 <p>I didn’t want to make anything too complex as the idea was to show it is possible to use a shared set of Xamarin.Forms views and view models between a mobile app and a website so all I did was make a simple contact form. This is the kind of scenario I picture being something you would want on both with as much code sharing as possible.</p>
-<p><img src="../../../mages/ooui/result.png" alt="Page shown running in Safari"></p>
+<p><img src="../../Images/ooui/result.png" alt="Page shown running in Safari"></p>
 <h3>Page shown running in Safari</h3>
-<p><img src="../../../mages/ooui/result2.png" alt="Page shown running on iOS"></p>
+<p><img src="../../Images/ooui/result2.png" alt="Page shown running on iOS"></p>
 <h3>Same page shown running on iOS</h3>
 <p>This was done using nothing but the Xamarin.Forms components Label, Entry and Button. These are all supported by Ooui. Most components are available but not all components are yet. This increases regularly as renderers are added for more Xamarin.Forms components but bear in mind that not everything you can do in Xamarin.Forms will be available with Ooui for now so more complex UI may not be possible for a while.
 The next step for me with the project is to find a way to share data between the projects, most likely using something like Realm or Azure Easy Tables. That way I continue to have both a mobile app and a website version of the same thing.

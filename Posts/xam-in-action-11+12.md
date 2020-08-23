@@ -6,7 +6,7 @@ date: 2018-03-24
 Time to take a bite from the other mobile APPle now, excuse the pun! So in the last post we created the views for both example apps on Android. This time we will be doing the same but for iOS.
 
 
-![Drawing of Apple Human Interface Guidelines](../../../mages/xam-in-action/apple-hig.jpeg)
+![Drawing of Apple Human Interface Guidelines](../../Images/xam-in-action/apple-hig.jpeg)
 
 ## Chapter 11 — BUILDING SIMPLE IOS VIEWS
 
@@ -58,7 +58,7 @@ Subsection 5 is for binding the view controller. As Jim says, once you load your
 
 Section 4 is the usual helpful summary of the chapter and then boom, you have SquareRt complete on both platforms!
 
-![SquareRt iOS at the end of Chapter 11 (with some nice colours)](../../../mages/xam-in-action/sqrt-11.png)
+![SquareRt iOS at the end of Chapter 11 (with some nice colours)](../../Images/xam-in-action/sqrt-11.png)
 ### SquareRt iOS at the end of Chapter 11 (with some nice colours)
 
 ## Chapter 12 — BUILDING MORE ADVANCED IOS VIEWS
@@ -87,7 +87,7 @@ Subsection 2 talks launch screens. Like with Android, there will be a screen dis
 
 There is already a launchscreen.xib file so you can edit this to customise your launch screen. Ideally you want it to be the same as the Android version with the same background and image.
 
-![The Countr app on iOS at the end of Chapter 12 — aka complete!!](../../../mages/xam-in-action/countr-12.png)
+![The Countr app on iOS at the end of Chapter 12 — aka complete!!](../../Images/xam-in-action/countr-12.png)
 ### The Countr app on iOS at the end of Chapter 12 — aka complete!!
 
 WE ARE DONE!!! Two cross-platform native apps with lots of features and a whole heap of new knowledge!

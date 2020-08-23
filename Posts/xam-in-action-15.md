@@ -6,7 +6,7 @@ date: 2018-04-23
 Woah we are on the penultimate chapter, would you believe it? Time flies when you are having fun! This chapter is all about Visual Studio App Center which is like a "Mission Control for apps" as Jim puts it. It's a place where you can achieve multiple functions in one place. There is a quite common image used by Microsoft to describe the lifecycle in Xamarin:
 
 
-![Building Lifecycle](../../../mages/xam-in-action/lifecycle.jpg)
+![Building Lifecycle](../../Images/xam-in-action/lifecycle.jpg)
 ### Image taken from the book itself
 
 So far the book has talked us through the first couple of steps but App Center allows us to complete the final ones. That is a lot of cool stuff, so yay for App Center. This chapter looks at the build, test and monitor steps.

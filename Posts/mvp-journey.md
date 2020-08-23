@@ -6,7 +6,7 @@ date: 2018-06-05
 As many of you know from Twitter, I became a Microsoft MVP on 1st June 2018. It's still kind of crazy to think about even a few days later but I wanted to share my thoughts, feelings and experiences that led me to get here. Many of you reading may be dreaming of becoming an MVP yourself and this might give you some idea of what you can do too.
 
 
-![MVP Logo](../../../mages/mvp-journey/logo.png)
+![MVP Logo](../../Images/mvp-journey/logo.png)
 
 TLDR: Get involved as much as you can. Blog, tweet, public speak if you feel able to, reach out to lots of people, this community is amazing! Being an MVP as I proved is not about smashing code out at 3am with your eyes closed, it's about loving what you do and giving back.
 

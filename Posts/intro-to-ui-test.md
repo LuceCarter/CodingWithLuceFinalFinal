@@ -10,7 +10,7 @@ This is an article I wrote on Medium recently so that my employer Dunnhumby coul
 When developing an application for any platform whether that is mobile, web or somewhere else, testing plays a vital role. The most common type of testing we are used to is Unit Testing. Now these tests play a vital role in ensuring the quality of your code and meeting requirements, but what about ensuring the UI behaves as expected when interacted with? In a large application with a lot of screens you want to automate this step to save time or simply leave it running overnight. How do you test that in unit tests? The answer is you can't.
 This is where UI testing plays a vital role. UI Testing is a set of tests that check the user interactions and ensure the app performs as expected when interacted with, including correct data bindings and appropriate components.
 
-![Devices running tests with no interaction](../../../mages/intro-to-ui-test/no-hands.jpeg)
+![Devices running tests with no interaction](../../Images/intro-to-ui-test/no-hands.jpeg)
 
 
 There are a few different frameworks available for carrying out UITests on a mobile device. This includes **Espresso** for native Android, **XCTest** for Native iOS, an open source cross-platform option called **Appium** and the one we will use, UITest from Xamarin. Be aware however that, testing iOS apps will require being run from a Mac.

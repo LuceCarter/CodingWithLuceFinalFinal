@@ -7,7 +7,7 @@ We are here! Part 3 of the book. This is all about getting you from a working ap
 
 In this post we will cover the first chapter in Part 3. Chapter 13 looks at running the app on a real device and not just simulators. This is not as easy as you might think. Android devices by default hide a menu required to turn on USB Debugging and iOS is just a world of pain with provisioning profiles and all sorts. But that is why we have our great author to take us through it all! In the next post we will look at Chapter 14 which looks at UI testing. This is a set of automated tests to ensure that the app reacts in the way you expect when interacted with like a user. This will make the posts quite short but they are not directly related so makes more sense.
 
-![Look what I made!](../../../mages/xam-in-action/happy-with-app.jpeg)
+![Look what I made!](../../Images/xam-in-action/happy-with-app.jpeg)
 ### Woo look what I made!
 
 ### Chapter 13 — RUNNING MOBILE APPS ON PHYSICAL DEVICES

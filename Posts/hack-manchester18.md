@@ -21,9 +21,9 @@ Once the day arrived, I packed all the things a good Agile team member should; p
 
 We were determined to put self-care first so along with all that we also packed laptop stands, keyboards, mice and anything else we needed to ensure we passed workplace DSE standards and could be as comfortable as possible. Over the course of the 2 days I think quite a few people were a bit jealous of our setup.
 
-![Our team ready to starting hacking!](../../../mages/hack-manchester18/hackingteam.jpeg)
+![Our team ready to starting hacking!](../../Images/hack-manchester18/hackingteam.jpeg)
 
-![Wall of post-its](../../../mages/hack-manchester18/post-its.jpg)
+![Wall of post-its](../../Images/hack-manchester18/post-its.jpg)
 
 We all knew ourselves well enough to know when we are at our best and how much taking breaks helps so we followed hourly sprints. We had clearly defined goals for that hour, worked in pairs then after that hour was up, had a 5-min retro where we discussed what we achieved, challenges we faced and what we learned. We weren’t afraid to use this time to make decisions like moving away from Vue.js to vanilla Javascript as it was overkill and causing issues using the Puck.js script, which was only available as a script file and not a node module.
 
@@ -55,7 +55,7 @@ If anyone is thinking about attending a hackathon, I say do it!! As we proved, y
 
 You can watch our video [here](https://youtu.be/EjgwNEOZt8w)!
 
-![Accepting our award as a team](../../../mages/hack-manchester18/winning.jpg)
+![Accepting our award as a team](../../Images/hack-manchester18/winning.jpg)
 
 
 

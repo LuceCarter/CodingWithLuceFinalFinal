@@ -31,4 +31,4 @@ If I had to sum up in a few words what it has done for me I would say “passion
 
 I hope this post helps begin to explain at least some of the reasons why I am so passionate about what I do.
 
-![Me with Woz at Xamarin Evolve 2016](../../../mages/story-into-code/Woz.jpg)
+![Me with Woz at Xamarin Evolve 2016](../../Images/story-into-code/Woz.jpg)

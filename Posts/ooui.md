@@ -27,7 +27,7 @@ C# and .Net in general allows you to make a large variety of project types, from
 
 The project structure from my experiment can be seen below but it involves four projects in my solution. A Xamarin.Forms application which contains the code for deploying to iOS and Android as well as the shared UI page I created, the platform-specific projects as part of my Xamarin.Forms project and a ASP.Net Core MVC web app which contains the work I did with Ooui to reference this shared page.
 
-![Solution for the project in Visual Studio](../../../mages/ooui/solution.png)
+![Solution for the project in Visual Studio](../../Images/ooui/solution.png)
 
 So following James’ excellent post, I created the ASP.Net website project first, added the required Nuget packages for Ooui and Xamarin.Forms and then did the initial configuration.
 
@@ -46,10 +46,10 @@ I wasn’t sure how well they would play together but straight out of the box wi
 
 I didn’t want to make anything too complex as the idea was to show it is possible to use a shared set of Xamarin.Forms views and view models between a mobile app and a website so all I did was make a simple contact form. This is the kind of scenario I picture being something you would want on both with as much code sharing as possible.
 
-![Page shown running in Safari](../../../mages/ooui/result.png)
+![Page shown running in Safari](../../Images/ooui/result.png)
 ### Page shown running in Safari
 
-![Page shown running on iOS](../../../mages/ooui/result2.png)
+![Page shown running on iOS](../../Images/ooui/result2.png)
 ### Same page shown running on iOS
 
 This was done using nothing but the Xamarin.Forms components Label, Entry and Button. These are all supported by Ooui. Most components are available but not all components are yet. This increases regularly as renderers are added for more Xamarin.Forms components but bear in mind that not everything you can do in Xamarin.Forms will be available with Ooui for now so more complex UI may not be possible for a while.

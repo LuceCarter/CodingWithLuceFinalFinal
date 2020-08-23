@@ -5,7 +5,7 @@ date: 2018-03-04
 
 I intended to try and space out the posts to one a week or something to avoid bombarding you with too many posts and giving me breathing room to take on the code. But a mixture of excitement, enjoyment of the book and the first chapter being more of a casual introduction, has led me to start writing this, the day after the last one!
 
-![Running towards the next chapter](../../../mages/xam-in-action/moar-code.png)
+![Running towards the next chapter](../../Images/xam-in-action/moar-code.png)
 ### Yippee more chapters!!!!
 
 ## Chapter 2 — HELLO MVVM — CREATING A SIMPLE CROSS-PLATFORM APP USING MVVM

@@ -17,7 +17,7 @@ The first thing that you need to note is that while it is in Preview, you cannot
 I decided to follow James’ example and add a new device by clicking the clearly visible button. I then selected Android 8.0 Oreo as my Android version of choice and the Nexus 5X. All the settings in the list can look a bit daunting but thankfully you can just leave the defaults as Xamarin have been kind enough to optimise these for you.
 One interesting thing I did observe though (although why you would ever turn it off I do not know) is that in the settings for the emulator, you can select to disable the Fast Boot feature.
 
-![The emulator settings allows you to disable fast boot](../../../mages/new-avd-manager/settings.png)
+![The emulator settings allows you to disable fast boot](../../Images/new-avd-manager/settings.png)
 ### Disable instant boot feature
 
 In my last blog post I created a simple cross-platform iOS, Android and ASP.Net Xamarin Forms project using Ooui so I decided to try deploying that to my newly created AVD.
@@ -29,7 +29,7 @@ The results were intriguing. It is able to see that I created a 5X emulator but 
 
 Interestingly, when created from Android Studio’s AVD Manager, the resulting emulator runs with a skin that makes it look like the actual phone. This is probably possible as a setting in the Xamarin one as well just couldn’t find it easily and it is what the cool kids would call a “first world problem”.
 
-![Two Android Emulators running side by side, one with a realistic skin](../../../mages/new-avd-manager/skins.png)
+![Two Android Emulators running side by side, one with a realistic skin](../../Images/new-avd-manager/skins.png)
 ### Pixel 2 emulator on the left and Nexus 5X emulator on the right
 
 I then tried deploying to the same emulator from Visual Studio. It saw the device was running as it was bold in the devices list but was unable to connect to it to deploy the application. If I tried deploying to the previously create Xamarin Android Device Manager Nexus 5X it booted fine.

@@ -18,7 +18,7 @@ After that we sat in the sun (what's that sun thing again?) for a while and took
 
 Tara then met us and gave us a tour of the Mixer area where they do all the work on the Mixer product (think of it as Microsoft's answer to Twitch). There was some really cool Halo figures in display cases in the foyer of Studio D building. They were from an exhibition a while ago apparently.
 
-![Halo Exhibit](../../../mages/build-18/halo.jpg)
+![Halo Exhibit](../../Images/build-18/halo.jpg)
 
 I also got to briefly meet a few people who actually create content for or create Mixer itself which was cool. We then headed to a building which contains Microsoft's Inclusive Tech Lab. They are working in conjunction with a UK company called Special Effects, implementing ideas based on their research and prototypes which helps make tech and gaming inclusive for all. Examples of things I saw include:
 

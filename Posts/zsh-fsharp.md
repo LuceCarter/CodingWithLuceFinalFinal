@@ -9,7 +9,7 @@ Unsurprisingly, it left me super excited and I was keen to have a go. One of the
 
 The issue I faced though was that despite having followed the guide, when I went to start the watcher for my project in the terminal, it didn't recognise fabulous as a command:
 
-![Terminal showing error finding fabulous command](../../../mages/zsh-fsharp/terminal-error.png)
+![Terminal showing error finding fabulous command](../../Images/zsh-fsharp/terminal-error.png)
 
 Now the reason for this was because the guide assumes that you are using bash as your scripting language in the terminal when in fact I use zsh. I reached out to Jim for help who kindly pointed me towards a Github issue for someone facing the same issue with a different tool.
 
@@ -21,6 +21,6 @@ Now my path variable already had stuff in it for the Android tooling so all I ha
 
 I wanted to share this with you so hopefully you can now quickly solve your issue or prepare for it before you even get started!
 
-![.zshrc file](../../../mages/zsh-fsharp/zshrc.png)
+![.zshrc file](../../Images/zsh-fsharp/zshrc.png)
 A snippet from my .zshrc file showing how it looks after the change!
 

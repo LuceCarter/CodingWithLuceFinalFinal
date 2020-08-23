@@ -6,7 +6,7 @@ date: 2018-03-23
 Welcome back! This post will be reviewing Chapters 9 and 10 of the book, which covers the first V in the MVVM architecture, the view. Specifically Android. Chapters 11 and 12 in the next post, will cover the views for iOS to round off Part 2 of the book and also means 2 working Android apps, woah!
 
 
-![Android robot](../../../mages/xam-in-action/droid.png)
+![Android robot](../../Images/xam-in-action/droid.png)
 
 ## Chapter 9 — BUILDING SIMPLE ANDROID VIEWS
 
@@ -42,7 +42,7 @@ By the end of Section 2 you will have learned how Android deals with  Images at 
 
 Section 3 introduces the Activity part of the view. This is the part equivalent to the V in MVVM. You will get the opportunity to build up the view to add the toolbar and layout you created in Section 2.
 
-![The SquareRt UI at the end of Chapter 9](../../../mages/xam-in-action/sqrt-solution-9.png)
+![The SquareRt UI at the end of Chapter 9](../../Images/xam-in-action/sqrt-solution-9.png)
 ### The SquareRt UI at the end of Chapter 9
 
 ## Chapter 10 — BUILDING MORE ADVANCED ANDROID VIEWS
@@ -82,7 +82,7 @@ Jim also teaches you about XML drawables which are XML based drawing instruction
 The last part of Section 3 talks about styling the app by overriding the default colours used by Android.
 Wow guess what everyone? We have done it! Two working Android apps that use different features and customisations to make something awesome!
 
-![Countr with my own colour scheme at the end of Chapter 10.](../../../mages/xam-in-action/countr-10.png)
+![Countr with my own colour scheme at the end of Chapter 10.](../../Images/xam-in-action/countr-10.png)
 ### Countr with my own colour scheme at the end of Chapter 10. Yes I know it doesn’t look great! Just experimenting
 
 Next post, we will look at Chapters 11 and 12, the final two in Xamarin in Action Part 2. As mentioned previously, they will cover the screens for SquareRt and Countr on iOS. See you then!
