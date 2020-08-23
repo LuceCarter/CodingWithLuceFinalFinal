@@ -1,0 +1,44 @@
+---
+title: Microsoft MVP, ReConnect And Community Leaders Event - Day 1
+date: 2017-12-01
+---
+
+# Microsoft MVP, ReConnect And Community Leaders Event - Day 1
+
+Being the founder and organiser of Manchester Xamarin User Group means Microsoft considers me a ‘Community Leader’, which means this year I was delighted to be invited to the big annual community event that they host.
+
+The aim of the event is to just bring everyone together from the community of MVP’s, ReConnect’s (former MVP’s who are still valuable but maybe moved away from a technical role making it harder to qualify as an MVP) and Community Leaders like myself. It was hosted at the National Space Centre in Leicester which was a real treat!
+
+Being such a fantastic venue and event with so many great people I have met or reconnected with, I decided I would share it all with you dear readers. It is a 1.5 day event so this is Day 1 and I will write a separate post about Day 2.
+
+So my journey down from Manchester was uneventful, I caught the train to Sheffield then changed for Leicester then once I got to Leicester I grabbed a taxi to take me to the Space Centre which was very exciting even from the outside! I only learned recently it was even here.
+
+Once I arrived I grabbed my name badge and some swag (the tech community term for free stuff). They had a good selection of t-shirts, fidget spinners, mugs and lanyards. I then had lunch and chatted with a mixture of old friends and new connections. Then the fun began. Only in the National Space Centre would the organiser be able to grab your attention by triggering the ‘launch’ sequence on a giant rocket!
+
+We moved to their meeting space, aptly named The Shuttle Suites and took our tables. What followed was an excellent workshop on Storytelling to improve presentations and the best backronym I have heard in a while ‘STORY — Sell Them an Outcome so they Remember You.
+
+Now I know what you are thinking, “Luce, that sounds like marketing spiel!” but let me attempt to explain it and maybe you will see why it is clever and why I will remember what it stands for.
+
+- SELL-This is the point you are trying to make with your story in your meeting or presentation, for example in this blog, the sell for me is for you to know about Day 1 at this event
+- THEM-This is the audience or “listener” you are talking to. Different kinds of people want different levels of detail. A non-technical personal for example won’t want code samples or an intricate explanation of how an idea you have might work. A group of children might want lots of colours and animations but a Board of Directors might be less won over by that.
+- OUTCOME-What is it you want to achieve with your story? Mine here is to inform, educate and entertain (for those who don’t know, this is a joke reference to the driving principles of my employer, BBC). You might want your audience to feel a certain way after hearing your story or maybe go out and take action. Think of stories in adverts and how they want you to go out and buy a product or shop at their business.
+- REMEMBER — Make it memorable. If the story has some kind of hook or punchline or something that makes it memorable, you are more likely to remember it and that is what we want in the end. We want our story to be remembered, we want it to be shared with others or for someone to go “I heard a really good story today”
+- YOU — This is about making sure you are honest, open and truthful. Deliver your story naturally and confidently. If you are nervous and ‘umming’ and ‘aahing’ a lot, people are less likely to be taken in by your story
+
+So after being trained up on STORY and how we could apply that to a meeting or presentation of our own coming up, we were asked to split off into our teams (decided by planet names written on the back of our name cards, I was Uranus). We were given a sheet about our planet and a story we had to plan, film and share. Ours was diversity and led to us walking around the Space Centre and learning new things about Uranus. Did you know it is currently on it’s side with the equator at 90 degrees to it’s orbits? Well I certainly didn’t!
+
+We ended up using a jar of multicoloured flying saucer sweets and explaining how a jar like that is more appealing, and easier to fill than one filled with just one colour, a bit like with diversity. A multi diverse group is more interesting and easier to bring together than one with strict entry criteria!
+
+After that it was time to adventure back to our hotel on a double decker bus organised by Microsoft, check-in and get ready to head back later on for what turned out to be an excellent evening!
+
+We arrived to an offering of various space cocktails. What that really means is fun colours. I had Orange Juice and Strawberry Syrup which looked like a sunset almost. We then had the chance to look around the space centre’s various floors and learn more about the planets, the moon, the Apollo missions and Britain’s space program.
+
+After that we moved into the Sir Patrick Moore Planetarium where we were treated to a tour of the ISS and then a programme called “We are Stars” which talked about the beginning of the Universe, the stars through to protons and electrons to elements and all the way up to cells and organisms and apes that turned into human beings.
+
+We exited to be greeted by a transformation in the Space Centre, 7 tables all set for us including star helium balloons, wine, water and bread.
+
+We had an excellent 3 course meal with a pause before dessert for my favourite kind of dinner entertainment, a pub quiz! We had a mixture of space and general knowledge questions and I was able to put my useless knowledge to good use like knowing the L in Samuel L. Jackson stands for Leroy.
+
+After that we headed back to the hotel and Day 1 was complete!
+
+At time of writing it is the start of Day 2 so hopefully I will have even more fascinating stories about things I have learned that you too may be able to make use of! Let me know if you have any questions.

@@ -1,0 +1,59 @@
+--- 
+title: Xamarin in Action — Chapters 2 + 3
+date: 2018-03-04
+---
+
+I intended to try and space out the posts to one a week or something to avoid bombarding you with too many posts and giving me breathing room to take on the code. But a mixture of excitement, enjoyment of the book and the first chapter being more of a casual introduction, has led me to start writing this, the day after the last one!
+
+![Running towards the next chapter](../../ Images/xam-in-action/moar-code.png)
+### Yippee more chapters!!!!
+
+## Chapter 2 — HELLO MVVM — CREATING A SIMPLE CROSS-PLATFORM APP USING MVVM
+
+Chapter 2 starts off with a nice introduction to UI design patterns and an example to give context. The example used is a simple Square Root calculator. There are some explanations of how a design pattern might be useful in this scenario including a sample screenshot to help you visualise the elements mentioned. 
+
+Also included in this section is an explanation of the simplest way to solve the square root problem but how that might have some flaws.
+Personally I really enjoy examples that give both a visual and descriptive explanation as well as some pro’s and con’s, allowing you to have an informed opinion in your own projects in future. It is also great to be inclusive to the different types of learner as some value diagrams and others lists or text!
+
+Next it begins to explain the buzzword for Mobile App architecture, “MVVM”. This isn’t just a word of the week though or some new idea, MVVM is the industry standard when it comes to the best way to architect a lot of apps. I learnt something new about the history of MVVM thanks to a little section in the book!
+
+Dotted throughout the book are little grey boxes that explain a concept to you from the history of MVVM to what the concept Reflection means in C#and beyond. I am finding these just as valuable as the other content so I very much recommend reading. Reflection for example is a term I hear a lot from developers but never remembered to look up but thanks to Xamarin in Action I can now tell you what it means!
+
+As well as covering what MVVM is and the benefits of it, Jim also explains about binding which is a key part of MVVM, allowing you to associate two items together such as a property in your view model and a UI element as you might need to update the UI as something changes in the backed, or a user makes a change on the UI that the backend needs telling about!
+
+One thing I noticed as I was reading through Chapter 2 was the consistency of diagrams. Now I don’t mean style, I mean diagrams explaining a concept are continued and elaborated on with more detail as the book begins to cover a topic in more depth. I found this helpful for building upon knowledge from Chapter 1 with a nice easy visual connection between them.
+
+Section 3 covers an explanation of cross-platform code but not just in the mobile context but anything that can share code. So this includes .Net Standard which is Microsoft’s attempt to share as many API’s as possible across platforms. This makes it even easier to write an app that can be developed and deployed on a wider set of platforms including Windows, Mac, iOS and Android!
+
+Great news dear reader, Chapter 2 is the start of writing code and the infamous equivalent of a Hello World app called HelloCrossPlatformWorld done using the MVVM pattern and a library called MVVMCross written by [Martijn van Dijk](https://twitter.com/mhvdijk).
+
+There are lots of pictures and instructions to make your life as easy as possible for creating your first app and running it on both Windows and Mac. Plus you get to make your first change to a piece of code to prove it is truly cross-platform!
+
+<iframe width="720" height="540" src="https://www.youtube.com/embed/FEEg34cOitA" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+Warning! HelloCrossPlatformWorld is a fairly long project name in my opinion even if descriptive. When I cloned my copy onto my PC so I could try it on Visual Studio 2017, I saved it to “D:/Development/XamarinInActionSamples/Chapter2/HelloCrossPlatformWorld” which led to the dreaded file path too long error on some of the files quite far down in the tree inside the platform specific projects so just be aware of that if you structure your stuff in a similar way when trying it yourself.
+
+## Chapter 3 — MVVM — THE MODEL-VIEW-VIEW MODEL DESIGN PATTERN
+
+As the title suggests, the aim of Chapter 3 is to go further into depth about the various layers that make up the MVVM pattern. The square root app from Chapter 2 returns but this time looking at how it might be implemented using MVVM.
+
+Chapter 3 doesn’t contain any actual coding for you to do as a reader but contains essential explanations of some key MVVM concepts including one of the most useful concepts in my opinion and when used well is a key part of the MVVM pattern, property changed events. This is well explained and made me feel more confident of being able to explain it to people.
+
+Section 1 begins with the Model layer which is the business logic where the calculations for the square root might happen. This section also touches on naming conventions in MVVM which is very important. As you will discover as you begin to examine other people’s code that also follows MVVM, it is really helpful to know what to expect and where you can find the kind of functionality you are looking for. Whether that be the business logic, UI logic or UI components.
+
+Section 2 moves onto the View Model. This is the UI logic layer and is responsible for the UI logic itself such as navigation and when to display data but also conversion from data in the models to the UI itself. A good example of this Jim mentioned earlier in the book is when your data store might contain a name stored as first name and last name separately but you want your UI to display the full name. The ViewModel would do the concatenation of those values into a full name.
+
+I enjoyed the explanation of why a View Model should be stateless but how it does sort of involve state. It represents the state from the model rather than actually containing the state itself which means you can either directly return the value of the state from the model layer or carry out some value conversion first as mentioned previously. This does not change the state, it simply changes the representation of that state for that instance only.
+
+The View Model section is probably the longest section of the chapter, with lots of sub sections covering important topics such as property changed notifications, a key concept to understand in MVVM, commands, value conversion and testing.
+
+Section 3 is quite short and covers the View layer of MVVM before moving on to Binding in Section 4. Binding is a key part of MVVM as it is how you associate the different properties and components together and between binding and property changed notifications, is the glue and messaging between the various layers in the architecture.
+
+Section 5 touches on the application layer then Section 6 covers navigation. I enjoyed this section as it taught me something I had never thought about, there is in fact two types of navigation. I have always just used the way I know how but the book covers the two options, the most common (view-model first) and the view first alternative.
+
+I also appreciated the employee directory/employee details example using a pretend person named Lauren Ipsum, a play on the traditional placeholder text from website development. A book always keeps your attention more when it mixes humour with informative. Remembering the joke means the concept is more likely to also stay with you.
+
+Section 7 has what in my opinion is the best diagram of the book so far. It is a sort of top-to-bottom left-to-right flow diagram for what is happening with the square root calculator app example using all the MVVM concepts you have just learnt. I found it easy to follow and well laid out.
+
+So that is two chapters in one post, woo! Huge shoutout to Jim for great content and a book so addictive I have barely put it down today!
+

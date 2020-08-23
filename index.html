@@ -1,8 +1,13 @@
 ---
 layout: layout.liquid
-pageTitle: Welcome to Coding with Luce's Blog!
+pagination:
+  data: collections.post
+  size: 10
+  reverse: true
+  alias: posts
+title: Welcome to Coding with Luce's Blog!
 ---
 {% for post in collections.posts %}
-    <h2><a href="{{ post.url }}">{{ post.data.pageTitle }}</a></h2>
-    <em>{{ post.date | date: "%Y-%m-%d" }}</em>
+<time datetime="{{ post.date | dateIso }}">{{ post.date | dateReadable }}</time>
+    <h2><a href="{{ post.url }}">{{ post.data.title }}</a></h2>    
 {% endfor %}

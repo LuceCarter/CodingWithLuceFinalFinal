@@ -15,8 +15,9 @@
     "url": "git+https://github.com/LuceCarter/CodingWithLuceFinalFinal.git"
   },
   "author": "Luce Carter (https:twitter.com/lucecarter1)",
-  "license": "MIT",  
+  "license": "MIT",
   "devDependencies": {
-    "@11ty/eleventy": "^0.11.0"
+    "@11ty/eleventy": "^0.11.0",
+    "moment": "^2.27.0"
   }
 }

@@ -1,0 +1,41 @@
+--- 
+title: Xamarin In Action - Chapter 14 - UITest
+date: 2018-04-22
+---
+
+Welcome back! Today we will go ahead and look at Chapter 14 which covers UI testing. In the last chapter we learned how to deploy to our local devices but now we need to check the user interactions and ensure the app performs as expected when interacted with including correct bindings and appropriate components.
+
+In the previous chapters we wrote lots of unit tests which tested our view model and model layers but unit tests can’t test the views. This is what UI testing is for. Section 1 is an introduction to UI Testing as you may not have written any UI tests before. Good news as well, UI tests can be run on emulators/simulators as well as physical devices so if you don’t have a device or only a device on iOS or Android, you can UI test both.
+
+Subsection 1 teaches you about the different frameworks available for running UI tests. This includes Espresso for native Android, XCTest for Native iOS, an open source cross-platform option called Appium and the one we will use, UITest from Xamarin. Be aware however that, testing iOS apps will require being run from a Mac.
+UITest is based off something called Calabash that is written in Ruby. This is open source and maintained by Xamarin, so UITest is a layer on top of Calabash that allows you to use C# to write your tests and NUnit to run them.
+
+Interestingly, UITests also follows the unit testing pattern of AAA, arrange act assert. In the arrange part, you code the tests to launch the app and move to the part you want to test. In act the test will interact with the app like a user and assert will ensure the result of these interactions is as expected such as text in a textbox. This subsection ends with a nice diagram showing this AAA pattern in UI Testing.
+
+Subsection 2 moves on to setting up your app for UI testing. This will be using the Countr app as this has more stuff to actually test compared to the square root calculator app. As usual Jim adds great instructions with text and screenshots to help you set up a UI test project and setting up the Android and iOS parts for testing.
+
+Subsection 3 has you actually running these tests using the built-in test runner. The thing to note is that you need a packaged app to run but Jim of course makes sure you know what to do to be prepared to run your tests. This subsection is broken down into the steps you need for running the tests on both VS for Mac and Visual Studio. You will find when running UI Tests on the iOS simulator that it will request network access due to the Mac firewall, even from Windows. There was actually a great blog post written by Tom Soderling on how to make this stop asking every time that you can find here
+
+I hit some issues when I was trying to run tests at first on iOS simualtor and device. It was complaining it couldn't install the DeviceAgent and then erroring on network sockets, the solution was to ensure that the pacakges are up to date in all your projects including UITest. Thanks to Jim personally for helping me fix this, it wasn't in the book but he is always open to requests for help!
+
+By the end of Section 1 you will have your first test running. But this doesn't tell us much except that your app loaded successfully and it was able to take a screenshot which is a good start but not everything.
+
+Section 2 moves on to actually writing tests of use. Two tests we might want to carry out on Countr are adding a new counter and incrementing a counter by 1. In both cases the app will start. If you are adding a new counter you want a test that will click the add button, give the counter a name and click Done. Then assert that the counter has been added with a value of 0. With increment, you want to click increment on the new counter and ensure that the value has increased to 1.
+
+Subsection 1 explains the visual tree. This is the heirarchy of components in your UI. Jim has added a great annotated diagram explaining this. Why is this important? Because UITest is able to query this visual tree to find the components you are requesting it interacts with.
+
+I bet many of you have heard of the REPL before (Read-Evaluate-Print-Loop), it is an interactive command-line tool, often available in various langauges (including Javascript) that is a great way of trying stuff out locally. UITest comes with a really useful REPL. It is available in the IApp interface so just add add.Repl(); at the start of a test and it will launch when you run the test. Be aware it will never close unless done manually so make sure to remember to remove this line once you are finished writing the test.
+
+Subsection 3 covers how to query for a control in your visual tree. The easiest way is to assign identifiers to the components on both platforms, using the same name for controls carrying out the same function on both platforms (such as adding a counter). This id can then be used as part of a query on your app.
+
+Subsection 4 expands on the previous. Now you know how to find controls on your UI in the tests, it is time to start adding interactions, in this case tapping a button.
+
+The rest of the subsections follow this pattern, showing you how to achieve different features you will want in your test including entering text. You will then learn about asserions in Subsection 7 and proving the tests you have written are correct by breaking things, to round off Section 2.
+
+Section 3 covers one of the test scenarios discussed earlier, incrementing a counter. This is quite a short but precise section as you have already learned all the concepts in the last section so you just put them together here to carry out the test with provided code guidance.
+
+The IApp interface is actually rather powerful and important so Section 4 takes time to look at this interface in more detail in terms of what else is available and a deeper dive into app queries. Subsection 1 is about the interface and subsection 2 is about queries. Section 4 rounds off the chapter with a nice summary.
+
+<iframe width="720" height="405" src="https://www.youtube.com/embed/yZ4KWYKqN9U" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+### Look no hands!

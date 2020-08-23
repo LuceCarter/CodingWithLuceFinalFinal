@@ -1,0 +1,63 @@
+--- 
+title: Attempting To Go "weeeeeeeee" With Ooui And Xamarin.Forms
+date: 2018-01-18
+---
+
+Ooui pronounced “weeee”, is a project by Frank Krueger that he recently started to allow Xamarin.Forms to be used on the web.
+
+Xamarin.Forms is the cross-platform UI framework that was originally used for iOS, Android and Windows Phone but now supports (either in GA release or Preview) so many other platforms including UWP, MacOS and Linux.
+
+As you may well know if you have spoken to me, been to one of my talks or read my earlier posts, Xamarin.Forms is my personal favourite. I find the declarative style you can use with XAML to create interfaces, easy to use and understand.
+
+Despite using a similar declarative style, I don’t get on with website building. Putting together the blocks in HTML is fine at the start but all the fancy customisations for appearance and behaviour you make in CSS, JS and some HTML is just not something I get on with. I actually have a website for hosting my blog posts but it looks so amateur I won’t move away from Medium yet.
+
+So when I saw Frank had started the Ooui project, I literally jumped up and down in excitement and swore to myself to try it out. This potentially has the power to take away some of the things I find difficult and let me use something I already know and feel comfortable with.
+
+I had intended to write about how to get started with it and what I achieved in a few hours. But since the start of writing of this blog post, James Montemagno has posted a blog post outlining how to create a website with Ooui which can be found here.
+
+So instead of duplicating the great work James did, I decided to have a little fun with it based on a question my colleague asked me when I was explaining Ooui to him over lunch this week.
+
+“What was that question?” you may ask. Well, it was around why you would use a framework intended for creating Mobile app UI when the interaction pattern with a website is so different.
+
+It popped the idea in my head for something. If Ooui can use Xamarin.Forms, could you share pages?
+
+Now it may seem like an odd question because surely the way you interact with a website is so different? Well not so much anymore. Yes the power and graphic capabilities of a browser on a computer are very different and you will have a larger screen space. But with the rise of touchscreen laptops and screens these days, touch interaction on a browser isn’t so unusual.
+
+C# and .Net in general allows you to make a large variety of project types, from mobile apps either native or cross-platform with Xamarin to ASP.Net to IoT Console applications and many more.
+
+The project structure from my experiment can be seen below but it involves four projects in my solution. A Xamarin.Forms application which contains the code for deploying to iOS and Android as well as the shared UI page I created, the platform-specific projects as part of my Xamarin.Forms project and a ASP.Net Core MVC web app which contains the work I did with Ooui to reference this shared page.
+
+![Solution for the project in Visual Studio](../../ Images/ooui/solution.png)
+
+So following James’ excellent post, I created the ASP.Net website project first, added the required Nuget packages for Ooui and Xamarin.Forms and then did the initial configuration.
+
+I also added a reference from my website project to the mobile project so I could reference the LuceCarterMobileOouiPage.xaml page that was created for me by the Xamarin.Forms project template. I ensured my website was configured to run the XAML page as the startup page in the HomeController.cs file and then ran the website.
+
+```csharp
+    public IActionResult Index()
+{
+   var page = new LuceCarterMobileOouiPage();
+   var oouiElement = page.GetOouiElement();
+   return new ElementResult(oouiElement, "Luce Carter Ooui");
+}
+```
+
+I wasn’t sure how well they would play together but straight out of the box with no issue, bam! I got the amazing “Welcome to Xamarin Forms!” message many of us Xamarin developers think of fondly.
+
+I didn’t want to make anything too complex as the idea was to show it is possible to use a shared set of Xamarin.Forms views and view models between a mobile app and a website so all I did was make a simple contact form. This is the kind of scenario I picture being something you would want on both with as much code sharing as possible.
+
+![Page shown running in Safari](../../ Images/ooui/result.png)
+### Page shown running in Safari
+
+![Page shown running on iOS](../../ Images/ooui/result2.png)
+### Same page shown running on iOS
+
+This was done using nothing but the Xamarin.Forms components Label, Entry and Button. These are all supported by Ooui. Most components are available but not all components are yet. This increases regularly as renderers are added for more Xamarin.Forms components but bear in mind that not everything you can do in Xamarin.Forms will be available with Ooui for now so more complex UI may not be possible for a while.
+The next step for me with the project is to find a way to share data between the projects, most likely using something like Realm or Azure Easy Tables. That way I continue to have both a mobile app and a website version of the same thing.
+By having a website version with a Contact Form, it paves the way for this to develop into something like a personal website and app. Of course this will lead to differences in UI as you will start to want to take advantage of the bigger screen on a website and more advanced features.
+One of the clever things about Xamarin.Forms is the ability to specify platform specific features or customisation with the use of OnPlatform tag in your XAML. One limitation to bear in mind is that a OnPlatform=”Web” type value is not available so you wouldn’t be able to do anything specific just for your web page in the same XAML page. But who knows, that may well change in future!
+I tried two different ways to see what platform information you could maybe obtain from the Xamarin side so you could try and solve this issue.
+One was using James Montemagno’s Cross Platform Device Info plugin and the Platform getter but you get a NotImplementedException on the page when you run it in ASP.Net.
+The other was using a Switch statement with Device.RuntimePlatform in the code behind. It did not have a specific option for web or browser but I thought I would try using MacOS to see if it knows the OS it is being run from in my case. For some of course that may be Windows or Linux. This ran in the browser without error but as expected it resolved to the Default behaviour as it didn’t know what platform it was.
+Those people with front-end web development skills may well also want to make use of CSS to really customise their pages rather than just using attributes on their XAML components. But CSS support should be coming soon so before you know it, HTML pages will be a thing of the past for us Xamarin.Forms XAML lovers.
+So there you have it, a quick run down of how I shared a UI between a website and a mobile app for fun. If people are interested, I will create a “Part 2” discussing how I got on adding data sharing between the website and the mobile app.
