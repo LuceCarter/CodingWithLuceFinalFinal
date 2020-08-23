@@ -18,10 +18,16 @@ body, html {
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    color: white;
+    color: #51A2A6;
   }
 
   .hero-text h1 {
-    font-size:50px
+    font-size:75px;
+    font-weight: bold;
+    color: #ed8626;
+  }
+
+  .hero-text p {
+      font-size: 20px;      
   }
   
