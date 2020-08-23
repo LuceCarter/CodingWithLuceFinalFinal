@@ -4,7 +4,7 @@ date: 2019-07-08
 ---
 
 
-![Renewal Letter](../../ Images/mvp-renewal-19/letter.jpg)
+![Renewal Letter](../../../mages/mvp-renewal-19/letter.jpg)
 
 Last year, on the 1st June 2018 in fact, I was awarded Microsoft MVP status for the first time. A few days after that, with a few days to process the news under my belt, I wrote [this blog post](https://lucecarter.co.uk/road-to-microsoft-mvp-my-journey/) discussing how I went from not really doing a lot in the community to MVP within 18 months.
 
@@ -30,7 +30,7 @@ As more people either saw me talk or saw me mention on Twitter about speaking, t
 
 I have also had chance to speak at local user groups here in Manchester who are always looking for speakers and it gave me a chance to interact with user groups I maybe otherwise wouldn't have thought to attend, such as groups aimed at functional programming!
 
-![Traditional seaside Fish and Chips in Brighton](../../ Images/mvp-renewal-19/brighton.jpg)
+![Traditional seaside Fish and Chips in Brighton](../../../mages/mvp-renewal-19/brighton.jpg)
 ### Traditional seaside Fish and Chips in Brighton
 
 Being an MVP has also meant I have had chance to help out the community when requested by Microsoft. In January I was asked to speak at NDC London as they wanted a mobile track, so while there I helped man the Microsoft stand for the morning. I got to hear great attendee stories, answer questions and acquire some awesome socks! Plus seeing fellow MVP's I haven't seen since before I was awarded; such as [Dave Evans](https://twitter.com/DaveDev) and [Garry Whittaker](https://twitter.com/garrywma), two fellow Xamarin experts here in the UK.

@@ -19,7 +19,7 @@ After a couple of hours, James had to leave as he had brunch plans with some oth
 
 James had given me some sightseeing suggestions so I did a bit of research then headed off. Step 1 was the Columbia Center and their Sky View Observatory. It is apparently the highest observatory in the Northwest of America and when I got up there I can see why!
 
-![View from Columbia Center](../../ Images/build-18/view.jpg)
+![View from Columbia Center](../../../mages/build-18/view.jpg)
 
 I chose this observatory over the Space Needle for a few reasons. The main two are that it is far cheaper than a ticket to the Space Needle and it is far taller (you can see it all tiny in the middle right of the photo) so when you just want a good view and nothing fancy like a restaurant, this is perfect!
 

@@ -61,4 +61,4 @@ With Twitter being so popular now, LinkedIn and all the great meetups and events
 
 If you have any more questions and want some advice from someone who survived university, feel free to contact me on [Twitter](https://twitter.com/lucecarter1!)
 
-![Me at Graduation](../../ Images/alumni-panel/graduated.jpg)
+![Me at Graduation](../../../mages/alumni-panel/graduated.jpg)

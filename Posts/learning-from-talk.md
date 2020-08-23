@@ -4,7 +4,7 @@ date: 2019-10-30
 ---
 
 
-![Heavy Breathing photo](../../ Images/learning-from-talk/sheldon.png)
+![Heavy Breathing photo](../../../mages/learning-from-talk/sheldon.png)
 ### Breathing heavily into a paper bag through panic
 
 Last Friday, 25th October 2019, I was lucky enough to speak at [Xamarin Expert Day](https://expertday.forxamarin.com/) in Cologne again. This event happens twice a year in Germany. I also spoke at the June event in Munich. So I know from experience that this is always a great event!
@@ -65,4 +65,4 @@ Lots went wrong but I did the standard British thing of "keep calm and carry on"
 
 I couldn't have predicted the rest but if you take one piece of advice from this blog, let it be; give yourself at least 12 hours before a talk if you are going to update! Of course, it may be best to leave it even longer. Certainly don't do what I did which is click Restart and Update, as soon as the box pops up.
 
-![Me during my talk at Xamarin Expert Day](../../ Images/learning-from-talk/talking.jpg)
+![Me during my talk at Xamarin Expert Day](../../../mages/learning-from-talk/talking.jpg)

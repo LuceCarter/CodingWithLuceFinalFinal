@@ -9,7 +9,7 @@ I am really pleased to know people are enjoying reading them. To be honest I sta
 
 Anyway, on to the good part, winner winner code for dinner and all that!
 
-![A soup bowl containing binary code](../../ Images/xam-in-action/binary-soup.jpeg)
+![A soup bowl containing binary code](../../../mages/xam-in-action/binary-soup.jpeg)
 
 ## Chapter 4 — HELLO AGAIN MVVM — UNDERSTANDING AND ENHANCING OUR SIMPLE MVVM APP
 
@@ -23,7 +23,7 @@ For the first time in this book, I found a diagram I would say was a little conf
 The book talks you through changing your app to add additional functionality and introduces some new concepts along the way such as Inversion of Control. I still find the name weird but Jim yet again finds a way to explain it in a way that at least makes me see WHY it is called that. I can see why he is paid by Microsoft to teach people things, he has a talent for it!
 Subsection 6, wiring up the iOS UI is where I hit my first real stumbling block. It wasn’t hard to resolve but Jim mentions clicking the highlighted button again once added to the storyboard to bring up the constraint bars, however this was not working on my version of Visual Studio for Mac and instead I just had to click the button in the top right as shown below:
 
-![Constraints Button](../../ Images/xam-in-action/constraints.png)
+![Constraints Button](../../../mages/xam-in-action/constraints.png)
 ### Constraints button
 
 Another thing to bear in mind if following along with the book is to not just follow the Steps 1, 2 and 3 for the required constraints but also look at the screenshot steps afterwards as it makes it much easier to follow along. Even after reading 3 times I am not convinced step 2 in the text is quite right but the screenshot is which makes it a lot easier. I have mentioned this to Jim so be aware this is only an issue at time of writing, it may be resolved by the time you try it out.

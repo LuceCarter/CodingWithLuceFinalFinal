@@ -8,7 +8,7 @@
         <h1>Xamarin in Action — Chapters 11 and 12</h1>
 
         <p>Time to take a bite from the other mobile APPle now, excuse the pun! So in the last post we created the views for both example apps on Android. This time we will be doing the same but for iOS.</p>
-<p>![Drawing of Apple Human Interface Guidelines](../../ Images/xam-in-action/apple-hig.jpeg)</p>
+<p><img src="../../../mages/xam-in-action/apple-hig.jpeg" alt="Drawing of Apple Human Interface Guidelines"></p>
 <h2>Chapter 11 — BUILDING SIMPLE IOS VIEWS</h2>
 <p>Android and iOS SDK’s are different but the basic concept of a screen or view is the same. You have a layout and classes to access those components. In iOS, instead of an Activity for the view, you have a UIViewController. The UI for both apps will look the same on iOS as Android, as expected but how you create those screens will be different.</p>
 <p>Section 1 talks about building the UI’s, starting with SquareRt. Subsection 1 touches on Apple Human Interface Guidelines which is their equivalent to Material Design. Apple have put a lot of time and research into these. Create an app that doesn’t follow these guidelines and your app will most likely get rejected if you request to publish to the App Store.</p>
@@ -42,7 +42,7 @@
 <p>Subsection 4 wires up the view controller to the view. The first step is to tell the view controller in the storyboard which backing view controller class to use. The issue with using storyboards as well is that unlike you did on Android, you can’t bind custom properties on the controls. Instead you set their names in the Widget tab and this will create a property inside the view controller class. This is actually the designer.cs file though rather than the view controller itself. This is one of the uses of the designer file.</p>
 <p>Subsection 5 is for binding the view controller. As Jim says, once you load your view from the storyboard, you need to bind the controls to your view model. You do this in the ViewDidLoad method. When this method is called, all properties have been set so you can safely go ahead and bind your controls knowing they have been initialised. Jim walks you through doing this.</p>
 <p>Section 4 is the usual helpful summary of the chapter and then boom, you have SquareRt complete on both platforms!</p>
-<p>![SquareRt iOS at the end of Chapter 11 (with some nice colours)](../../ Images/xam-in-action/sqrt-11.png)</p>
+<p><img src="../../../mages/xam-in-action/sqrt-11.png" alt="SquareRt iOS at the end of Chapter 11 (with some nice colours)"></p>
 <h3>SquareRt iOS at the end of Chapter 11 (with some nice colours)</h3>
 <h2>Chapter 12 — BUILDING MORE ADVANCED IOS VIEWS</h2>
 <p>Like with Android, the 2nd chapter for the iOS side of things is to create the more complex views for Countr. This will involve a table view for listing counters, navigation bar buttons, setting app icons, launch screens and the appearance API. All very familiar as it is the same stuff covered for Android in Chapter 10.</p>
@@ -57,7 +57,7 @@
 <p>Subsection 1 looks at app icons. TIL moment for me. iOS requires 20, yes 20 different icons for the different uses and sizes. Thankfully you can use the same sources to generate these  Images as you did the Android versions in Chapter 10.</p>
 <p>Subsection 2 talks launch screens. Like with Android, there will be a screen displayed briefly as the app loads and as this is the first view the user sees, you want it to be something sensible. You also learn about application lifecycle and the AppDelegate.cs class that is created by default.</p>
 <p>There is already a launchscreen.xib file so you can edit this to customise your launch screen. Ideally you want it to be the same as the Android version with the same background and image.</p>
-<p>![The Countr app on iOS at the end of Chapter 12 — aka complete!!](../../ Images/xam-in-action/countr-12.png)</p>
+<p><img src="../../../mages/xam-in-action/countr-12.png" alt="The Countr app on iOS at the end of Chapter 12 — aka complete!!"></p>
 <h3>The Countr app on iOS at the end of Chapter 12 — aka complete!!</h3>
 <p>WE ARE DONE!!! Two cross-platform native apps with lots of features and a whole heap of new knowledge!</p>
 <p>I have only gone in to brief detail about each section in these posts but I assure you it all contains a lot of amazing information and it is well worth buying the book!</p>

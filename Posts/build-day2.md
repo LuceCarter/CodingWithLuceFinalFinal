@@ -11,7 +11,7 @@ Getting a bus of course meant I needed money so I withdrew my first $ from an AT
 
 I packed the basic essentials and headed off to the bus stop. The bus arrived early so I hopped on. I was all prepared to put my money in the machine and get a ticket when the driver just gestured me to get on. No idea why to this day but who am I to turn down a free 45 minute bus ride! Well I say 45, it turned into more like well over an hour due to some road closures in Downtown. The trip over towards Redmond was gorgeous though once you got out of the city. I was very blessed with the weather.
 
-![On Bus from Seattle to Redmond](../../ Images/build-18/bus.jpg)
+![On Bus from Seattle to Redmond](../../../mages/build-18/bus.jpg)
 
 Sadly due to the delays on my bus, we missed our original slot for the factory tour so we had to book on a later one but the availability wasn't until much later. However Jim had landed from the UK by this point and was at his hotel near my hotel so Mitch invited him to join us which was awesome! I speak to Jim a lot but don't always get to see him much so knowing another Xamarin expert and lover was joining us was great. We took some time out on a viewing deck overlooking the runway then grabbed some lunch while Jim caught a Lyft (another Uber type company) over to where we were.
 

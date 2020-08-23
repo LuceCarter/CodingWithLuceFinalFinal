@@ -55,5 +55,5 @@ Later that evening, I was signed up to a private dinner for the CDA Build guests
 Wow what a day! I tried to slim the content down as much as I could without it losing too much value as there was a lot going on so I hope you enjoyed reading it.
 
 
-![Posing with Christina Warren](../../ Images/build-18/christina.jpg)
+![Posing with Christina Warren](../../../mages/build-18/christina.jpg)
 I look as you would expect when jetlagged and having spent all day in crowds but I got a selfie with Christina holding the logo for the .Net user group here in Manchester! They are good friends of mine and actually have a logo I happened to have a sticker of so I flew it transatlantic to pose with inspirational people hehe.

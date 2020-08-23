@@ -8,7 +8,7 @@ I have been looking forward to this for a while. I have paid for expedited shipp
 I am not going to write the contents of the book here obviously, this is not to save you readers buying a copy as that is a total disservice to Jim’s hard work but I thought as I read through different chapters I could share my thoughts and experience of the content and code samples. It’s not really a review as I am not remotely qualified to do that. But I love trying code samples and I usually experience the odd hiccup that you could learn from.
 So without further ado..let’s dive in to Chapter 1!
 
-![Diving in](../../ Images/xam-in-action/dive-in.jpeg)
+![Diving in](../../../mages/xam-in-action/dive-in.jpeg)
 ### A rather bad drawing, inspired by the much better drawings of [Matthew Soucoup (@codemillmatt)](https://twitter.com/codemillmatt)
 
 Naturally with a textbook covering a technical topic, the book starts off with an introduction. Part 1 of the introduction covers what Xamarin is as well as comparisons with alternatives such as pure Native and Cordova and also Xamarin Forms and how that differs from Xamarin Native as it is called. Jim does a great job of explaining what each feature means and the pro’s and con’s for both an indie developer and an enterprise. His explanation of Cordova articulates what it is in a way I have always struggled to do well when asked why I prefer Xamarin and dislike those wrapped Websites tools such as Cordova. Thanks Jim and great start to the book!

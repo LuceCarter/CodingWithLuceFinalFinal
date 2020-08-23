@@ -9,7 +9,7 @@ Part 2 is all about building apps using concepts learnt in Part 1. and it will t
 
 There are 7 chapters in this part of the book and I will be splitting them up over 3 posts. This post will cover the cross-platform parts of your applications which are covered in Chapters 6,7 and 8. Chapters 9 and 10, in the next post will cover the view and application layers on Android. The final post on Part 2 will cover Chapters 11 and 12 which as you may have guessed is the view and application layers on iOS. So let’s set off on our trip down mobile lane!
 
-![Starting the quest to build apps](../../ Images/xam-in-action/quest.jpeg)
+![Starting the quest to build apps](../../../mages/xam-in-action/quest.jpeg)
 ### Time to set off on my quest to build apps
 
 ## Chapter 6 — DESIGNING MVVM CROSS-PLATFORM APPS
@@ -69,10 +69,10 @@ You will install a package for interacting with JSON objects and make your first
 
 Once you have set all that up and run your tests (only required a simple change to reflect the web calls being async) that is Chapter 7 complete. We have learned a lot! We now have the model layers built for both applications complete with calls to relevant data stores where required. Still a long way to go towards a finished app but we are one step closer! The summary in Section 5 shows just how much was covered in the chapter.
 
-![SqrRt solution at the end of Chapter 7](../../ Images/xam-in-action/sqrt-solution-7.png)
+![SqrRt solution at the end of Chapter 7](../../../mages/xam-in-action/sqrt-solution-7.png)
 ### SqrRt solution at the end of Chapter 7
 
-![Countr solution at the end of Chapter 7](../../ Images/xam-in-action/counter-solution-7.png)
+![Countr solution at the end of Chapter 7](../../../mages/xam-in-action/counter-solution-7.png)
 ### Countr solution at the end of Chapter 7
 
 ## Chapter 8 — BUILDING CROSS-PLATFORM VIEW MODELS
@@ -89,7 +89,7 @@ I hit an issue when testing that a property changed event is raised when the num
 
 Where Subsection 1 was all about state on your view model, Subsection 2 is about exposing behaviour. With the square root calculator, there is no need to have any kind of manual trigger as it is so simple. However you do want to make use of property changed events. When a user enters a value to be converted, it should just calculate immediately and update the result. By the end of this section the app has been built up to have a view model with properties that reflect property changed events and value conversion and have associated unit tests.
 
-![Sqrt solution at the end of Section 2](../../ Images/xam-in-action/sqrt-solution-7-s2.png)
+![Sqrt solution at the end of Section 2](../../../mages/xam-in-action/sqrt-solution-7-s2.png)
 ### Project files for SqrRt at the end of Section 2
 
 Section 3 moves on to carry out the state and behaviour configuration on Countr rather than SqrRt.
@@ -118,7 +118,7 @@ Step 1 uses the built in MVVMCross Navigation Service for triggering a view-mode
 
 Over the course of Chapter 8, the book takes you through how to add a new command for navigating to a new view model and carrying out relevant unit tests to ensure the correct view model is called to be created.
 
-![Countr solution at the end of Chapter 8](../../ Images/xam-in-action/countr-solution-8.png)
+![Countr solution at the end of Chapter 8](../../../mages/xam-in-action/countr-solution-8.png)
 ### The list of files in your Countr project at the end of Chapter 8
 
 WOW! That was a lot of code. I know this post has turned out quite long, but I have tried to keep it as brief but informative as possible. The chapters I have just discussed cover a lot of the main chunks of the example apps you will get to build following this book. As usual Jim does a great job of explaining things and using the continued analogies of the coffee shop and the email app.
