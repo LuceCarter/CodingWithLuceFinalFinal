@@ -22,20 +22,26 @@ pagination:
   </div>
 </div>
 
-{% for post in posts %}
-  <article>
 
-    <h1>
-      <a href="{{ post.url | url }}">{{ post.data.title }}</a>
-    </h1>
+<div class="content">
 
-    <time datetime="{{ post.date | dateIso }}">{{ post.date | dateReadable }}</time>
+  <div class="post-feed-title">Latest Articles</div>
+  {% for post in posts %}
+    <article>
+
+      <h1>
+        <a href="{{ post.url | url }}">{{ post.data.title }}</a>
+      </h1>
+
+      <time datetime="{{ post.date | dateIso }}">{{ post.date | dateReadable }}</time>
+    </br>
   </br>
-</br>
-{% excerpt post %}
-</br>
-</br>
-<a href="{{ post.url | url }}">Read more</a>
+  {% excerpt post %}
+  </br>
+  </br>
+  <a href="{{ post.url | url }}">Read more</a>
 
-</article>
-{% endfor %}
+  </article>
+  {% endfor %}
+
+</div>

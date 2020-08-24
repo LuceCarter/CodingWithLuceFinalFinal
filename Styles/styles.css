@@ -3,6 +3,7 @@ body, html {
     height: 100%;
 }
 
+
 .hero-image {
     background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("/Images/global/space2.png");
     height: 418.958px;
@@ -30,4 +31,28 @@ body, html {
   .hero-text p {
       font-size: 20px;      
   }
+
+  .content {
+      text-align: center;
+  }
   
+  .post-feed-title {
+    font-size: 14px;
+    font-weight: normal;
+    letter-spacing: 2px;
+    line-height: 1.2;
+    margin-bottom: 2.14285em;
+    margin-top: 100px;
+    text-transform: uppercase;
+    text-align: center;
+  }
+
+  .post-feed-title::after {
+    background-color: #ed8626;
+    display: block;
+    content: "";
+    height: 1px;
+    margin-top: 15px;
+    width: 60px;
+    
+}
