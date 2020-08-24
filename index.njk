@@ -6,14 +6,6 @@ pagination:
   reverse: true
   alias: posts
 ---
-{# <div class="hero-image">
-  <div class="hero-text">
-  <section class="hero">
-    <h2>Welcome!</h2>
-    <p>My name is Luce Carter. I'm a Xamarin loving Software developer, blogger and speaker based in Manchester, UK.</p>
-  <section>
-  </div>
-</div> #}
 
 <div class="hero-image">
   <div class="hero-text">
@@ -43,5 +35,13 @@ pagination:
 
   </article>
   {% endfor %}
+
+</br>
+{%- for pageEntry in pagination.pages %}
+    <a href="{{ pagination.hrefs[ loop.index0 ] }}"{% if page.url == pagination.hrefs[ loop.index0 ] %} aria-current="page"{% endif %}>Page {{ loop.index }}</a>
+{%- endfor %}
+
+<br>
+<br>
 
 </div>

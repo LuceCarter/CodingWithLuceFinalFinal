@@ -3,7 +3,6 @@ body, html {
     height: 100%;
 }
 
-
 .hero-image {
     background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("/Images/global/space2.png");
     height: 418.958px;
@@ -45,14 +44,16 @@ body, html {
     margin-top: 100px;
     text-transform: uppercase;
     text-align: center;
+    position: relative;
   }
 
   .post-feed-title::after {
     background-color: #ed8626;
     display: block;
+    text-align: center;
     content: "";
     height: 1px;
-    margin-top: 15px;
+    margin-top: -15px;
     width: 60px;
     
 }
