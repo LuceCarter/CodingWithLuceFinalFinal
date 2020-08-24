@@ -7,17 +7,12 @@ time {
   color: #a1a1a7;
 }
 
-article::after {
-  background-color: #727272;
-    display: block;
-    text-align: center;
-    content: "";
-    height: 1px;
-    margin-top: 15px;
-    margin-bottom: 15px;
-    margin-left: auto;
-    margin-right: auto;
-    width: 220px;
+hr {
+  max-width: 75%;
+  margin-left: auto;
+  margin-right: auto;
+  border-color: #f49740;
+  margin-bottom: 20px;
 }
 
 .hero-image {
