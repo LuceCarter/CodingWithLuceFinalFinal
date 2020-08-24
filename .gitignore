@@ -104,3 +104,8 @@ dist
 .tern-port
 .DS_Store
 .vscode/settings.json
+
+# Exclude project wisdom file used for tracking ToDo's
+Wisdom.md
+cool-panther.png
+_site/Wisdom/*
