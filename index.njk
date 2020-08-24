@@ -10,10 +10,9 @@ pagination:
 <div class="hero-image">
   <div class="hero-text">
     <h1>Welcome!</h1>
-    <p>My name is Luce Carter. I'm a Xamarin loving Software developer, blogger and speaker based in Manchester, UK.</p>    
+    <p>My name is Luce Carter. I'm a Xamarin loving Software developer, blogger and speaker based in Manchester, UK.</p>
   </div>
 </div>
-
 
 <div class="content">
 
@@ -21,24 +20,26 @@ pagination:
   {% for post in posts %}
     <article>
 
+      <time datetime="{{ post.date | dateIso }}">{{ post.date | dateReadable }}</time>
+
       <h1>
         <a href="{{ post.url | url }}">{{ post.data.title }}</a>
       </h1>
 
-      <time datetime="{{ post.date | dateIso }}">{{ post.date | dateReadable }}</time>
     </br>
   </br>
   {% excerpt post %}
-  </br>
-  </br>
-  <a href="{{ post.url | url }}">Read more</a>
-
-  </article>
-  {% endfor %}
+</br>
+</br>
+<a href="{{ post.url | url }}">Read more</a>
+</br>
+</br>
+</article>
+{% endfor %}
 
 </br>
 {%- for pageEntry in pagination.pages %}
-    <a href="{{ pagination.hrefs[ loop.index0 ] }}"{% if page.url == pagination.hrefs[ loop.index0 ] %} aria-current="page"{% endif %}>Page {{ loop.index }}</a>
+<a href="{{ pagination.hrefs[ loop.index0 ] }}"{% if page.url == pagination.hrefs[ loop.index0 ] %} aria-current="page"{% endif %}>Page {{ loop.index }}</a>
 {%- endfor %}
 
 <br>
