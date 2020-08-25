@@ -16,8 +16,10 @@ module.exports = function (eleventyConfig) {
 
   // Folders to copy to output folder
   eleventyConfig.addPassthroughCopy("Styles");
-
   eleventyConfig.addPassthroughCopy("Images");
+  eleventyConfig.addPassthroughCopy("js");
+
+  eleventyConfig.addWatchTarget('./js/');
 };
 
 function extractExcerpt(article) {
