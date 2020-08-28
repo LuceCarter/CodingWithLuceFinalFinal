@@ -1,8 +1,13 @@
 ---
 layout: base-layout.njk
 ---
-<article>
-<time datetime="{{ date | dateIso }}">{{ date | dateReadable }}</time>
-  <h1>{{ title }}</h1> 
-  {{ content | safe }}
-</article>
+<head>
+  <link href="../../Styles/styles.css" rel="stylesheet">
+</head>
+<div class="post-content">
+  <article>
+  <time datetime="{{ date | dateIso }}">{{ date | dateReadable }}</time>
+    <h1 class="post-title">{{ title }}</h1> 
+    {{ content | safe }}
+  </article>
+</div>

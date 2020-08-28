@@ -1,6 +1,9 @@
 body, html {
     font-family: "Work Sans", sans-serif;
     height: 100%;
+    font-size: 24px;
+    line-height: 1.66667;
+    color:#535358;
 }
 
 time {
@@ -13,6 +16,12 @@ hr {
   margin-right: auto;
   border-color: #f49740;
   margin-bottom: 20px;
+  border: 0;
+  border-bottom: 1px solid #ffa03a
+}
+
+div {
+  display: block;
 }
 
 .hero-image {
@@ -34,13 +43,13 @@ hr {
   }
 
   .hero-text h1 {
-    font-size:75px;
+    font-size:100px;
     font-weight: bold;
     color: #ed8626;
   }
 
   .hero-text p {
-      font-size: 20px;      
+      font-size: 36px;      
   }
 
   .dad-jokes {
@@ -58,7 +67,7 @@ hr {
   }
   
   .post-feed-title {
-    font-size: 14px;
+    font-size: 24px;
     font-weight: normal;
     letter-spacing: 2px;
     line-height: 1.2;
@@ -82,4 +91,25 @@ hr {
     margin-left: auto;
     margin-right: auto;
     width: 60px;    
+}
+
+.post-content {
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 50%;
+}
+
+.post-content h3 {
+  font-weight: bold;
+  color: #2f313d;
+}
+
+.post-content a {
+  color: #ffa03a;
+  text-decoration: none;
+}
+
+.post-title {
+  color: #2f313d;
 }
