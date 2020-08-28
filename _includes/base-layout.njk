@@ -6,9 +6,12 @@
   <title>Coding with Luce</title> 
 
   <link href="../Styles/styles.css" rel="stylesheet">
+  <script src="https://kit.fontawesome.com/b1a0650681.js" crossorigin="anonymous"></script>
   <link href="https://fonts.googleapis.com/css2?family=Work+Sans&display=swap" rel="stylesheet">
 </head> 
-<body>   
+<body> 
+
+  {% include 'partials/header.html' %}
   <main> 
     {{ content | safe }}
   </main>  
