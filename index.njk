@@ -6,52 +6,53 @@ pagination:
   reverse: true
   alias: posts
 ---
-<!-- <div class="hero-image">
+<div class="hero-image">
   <div class="hero-text">
-    <h1>Welcome!</h1>
-    <p>My name is Luce Carter. I'm a Xamarin loving Microsoft MVP, Twilio Champion, blogger and speaker based in Manchester, UK.</p>
-    <div class="socials">
-    <a href="https://twitter.com/LuceCarter1"><i class="fab fa-twitter fa-3x"></i></a>
-    <a href="https://github.com/LuceCarter"><i class="fab fa-github fa-3x"></i></a>
-  </div>
+    <h1 class="hero-title">Welcome!</h1>
+    <p class="hero-subtitle">My name is Luce Carter. I'm a Xamarin loving Microsoft MVP, Twilio Champion, blogger and speaker based in Manchester, UK.</p>
+    
+    <div class="hero-socials">
+      <a href="https://twitter.com/LuceCarter1"><i class="fab fa-twitter fa-3x hero-icons"></i></a>
+      <a href="https://github.com/LuceCarter"><i class="fab fa-github fa-3x hero-icons"></i></a>
+    </div>
+  
   </div>
 </div>
 
 <div class="dad-jokes">
-  <p>Hurr Hurr: <p>   
-   <h3 id="dadJoke"></h3>
+    <p class="dad-jokes-title">Hurr Hurr:</p>
+    <h3 class="dad-jokes-joke" id="dadJoke"></h3>
 </div>
 
 <div class="content">
 
-  <div class="post-feed-title">Latest Articles</div>
-  {% for post in posts %}
-    <article>
+  <h2 class="content-title">Latest Articles</h2>
 
-      <time datetime="{{ post.date | dateIso }}">{{ post.date | dateReadable }}</time>
+    {% for post in posts %}
+      <article>
+        <time class="post-time" datetime="{{ post.date | dateIso }}">{{ post.date | dateReadable }}</time>
 
-      <h1>
-        <a href="{{ post.url | url }}">{{ post.data.title }}</a>
-      </h1>
+        <a class="post-title-link" href="{{ post.url | url }}">
+            <h3 class="post-title">{{ post.data.title }}</h3>
+        </a>
 
-    </br>
-  </br>
-  {% excerpt post %}
-</br>
-</br>
-<a href="{{ post.url | url }}">Read more...</a>
-</br>
-</br>
-<hr>
-</article>
+        <p class="post-excerpt">
+         {% excerpt post %}
+        </p>
+
+        <a class="post-read-button" href="{{ post.url | url }}">Read more</a>
+
+      </article>
 {% endfor %}
 
-</br>
-{%- for pageEntry in pagination.pages %}
-<a href="{{ pagination.hrefs[ loop.index0 ] }}"{% if page.url == pagination.hrefs[ loop.index0 ] %} aria-current="page"{% endif %}>Page {{ loop.index }}</a>
-{%- endfor %}
-
-<br>
-<br>
+  <nav class="pagination">
+    {%- for pageEntry in pagination.pages %}
+      <a 
+      class="pagination-link{% if page.url == pagination.hrefs[ loop.index0 ] %} pagination-link-current{% endif %}"
+      href="{{ pagination.hrefs[ loop.index0 ] }}"
+      {% if page.url == pagination.hrefs[ loop.index0 ] %} 
+      aria-current="page"{% endif %}>{{ loop.index }}</a>
+    {%- endfor %}
+  </nav>
  <script src="/js/dadJoke.js"></script>
-</div> -->
+</div> 

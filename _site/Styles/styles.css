@@ -1,9 +1,19 @@
+:root {
+  --foreground: #535358;
+  --brand-primary: #ed8626;
+  --brand-darker: #cc0000;
+}
+
+/* Standard portrait tablet width is 768px */
+/* 769+ is what we'll use for our base media query 8 */
+
+/* Resets */ 
+
 body, html {
     font-family: "Work Sans", sans-serif;
     height: 100%;
     font-size: 16px;
-    line-height: 1.66667;
-    color:#535358;
+    color: var(--foreground);
     margin: 0;
 }
 
@@ -11,46 +21,24 @@ h1, h2, h3, h4, h5, h6, p {
   margin: 0;
 }
 
-a {
-  text-decoration: none;
-}
-
-a:visited, a:link {
-  color: #000;
-}
-
-article {
-  margin-top: 2rem;
-}
-
-time {
-  color: #a1a1a7;
-}
-
 hr {
   max-width: 75%;
   margin-left: auto;
   margin-right: auto;
-  border-color: #f49740;
+  border-color: var(--brand-primary);
   margin-bottom: 20px;
   border: 0;
-  border-bottom: 1px solid #ffa03a
-}
-
-div {
-  display: block;
-}
-
-nav ul li {
-  list-style: none;
+  border-bottom: 1px solid var(--brand-primary)
 }
 
 a:hover {
-  color: #000;
+  color: var(--brand-darker);
 }
 
+/* Start home page */
+
 .header {
-  background-color: #ffa03a;
+  background-color: var(--brand-primary);
 }
 
 .header-container {
@@ -62,22 +50,13 @@ a:hover {
   max-width: 1080px;
 }
 
-.header-container a:visited {
-  color: #ffff;
-}
-
-.header-container a:hover {
-  color: #000;
-}
-
-.header-container a:link {
-  color: #fff;
-}
-
 .header-link {
   display: flex;
   flex-direction: row;
   align-items: center;
+  text-decoration: none;
+  color: #ffffff;
+  transition: color 0.2s ease-in-out;
 }
 
 .header-icon {
@@ -91,121 +70,229 @@ a:hover {
   font-size: 1rem;
 }
 
-.fab {  
-  height: 150;
-  width: 150px;
-  padding-bottom: 5rem;
-}
-
-.fa-twitter {
-  color: rgb(10, 166, 209);
-}
-
-.fa-github {
-  color: #fff;
-}
-
- .fas:hover {
-   color: #000;
- }
-
-.header-navigation {
-}
-
 .header-navigation-list {
   padding: 0;
-}
-
-.header-navigation-list {
-
-}
-
-.header-navigation-list-item {
-
+  list-style: none;
 }
 
 .header-navigation-list-item-link {
   font-size: 1rem;
+  text-decoration: none;
+  color: #ffffff;
+  transition: color 0.2s ease-in-out;
 }
-
 
 .hero-image {
-    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("/Images/global/space2.png");
-    height: 418.958px;
-    width: 100%;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    position: relative;
-  }
-  
-  .hero-text {
-    text-align: center;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    color: #51A2A6;
-  }
-
-  .hero-text h1 {
-    font-size:100px;
-    font-weight: bold;
-    color: #ed8626;
-    margin-block-end: 0;    
-  }
-
-  .hero-text p {
-      font-size: 36px;
-      margin-bottom: 0; 
-      margin-top: 1rem;      
-  }
-
-  .socials {
-    margin-bottom: 2rem;
-  }
-
-  .dad-jokes {
-    margin-left: auto;
-    margin-right: auto;
-    text-align: center;
-    margin-top: 2rem;
-  }
-
-  .dad-jokes p {
-    color: #cc0000;
-  }
-
-  .content {
-      text-align: center;
-  }
-  
-  .post-feed-title {
-    font-size: 24px;
-    font-weight: normal;
-    letter-spacing: 2px;
-    line-height: 1.2;
-    margin-bottom: 2.14285em;
-    margin-top: 100px;
-    text-transform: uppercase;
-    text-align: center;
-    position: relative;
-    margin-left: auto;
-    margin-right: auto;
-    max-width: 720px;
-  }
-
-  .post-feed-title::after {
-    background-color: #ed8626;
-    display: block;
-    text-align: center;
-    content: "";
-    height: 1px;
-    margin-top: 15px;
-    margin-left: auto;
-    margin-right: auto;
-    width: 60px;    
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("/Images/global/space2.png");
+  height: 420px;
+  width: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
 }
+  
+.hero-text {
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  padding: 2rem;
+}
+
+.hero-title {
+  font-size: 1.2rem;
+  line-height: 2rem;
+  margin-bottom: 1rem;
+  font-weight: bold;
+  color: var(--brand-primary);
+}
+
+@media screen and (min-width: 769px) {
+  .hero-title {
+    font-size: 2rem;
+    line-height: 3rem;
+  }
+}
+
+.hero-subtitle {
+  font-size: 1.2rem;
+  line-height: 1.8rem;
+  margin-bottom: 1rem auto 0 auto; 
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  color: #ffffff;
+  max-width: 600px;   
+}
+
+.hero-socials {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 2rem;
+  text-align: center;
+}   
+
+.hero-icons {
+  color: #ffffff;
+  justify-self: center;
+  display: flex;
+}
+
+.dad-jokes {
+  text-align: center;
+  margin: 0 auto 2rem auto;
+  padding: 1rem;
+}
+
+.dad-jokes-title {
+  color: var(--brand-darker);
+  font-size: 0.8rem;
+  line-height: 1.2rem;
+  margin-bottom: 1rem;
+}
+
+.dad-jokes-joke {
+  color: var(--foreground);
+  font-size: 1rem;
+  line-height: 1.6rem;
+}
+
+.content {
+  padding: 1rem;
+  max-width: 600px;
+  margin: 1rem auto;
+}
+
+.content-title {
+  font-size: 1.5rem;
+  font-weight: normal;
+  letter-spacing: 2px;
+  line-height: 2rem;
+  margin-bottom: 4rem;
+  text-transform: uppercase;
+  text-align: center;
+}
+
+.content-title::after {
+  background-color: var(--brand-primary);
+  display: block;
+  text-align: center;
+  content: "";
+  height: 1px;
+  margin-top: 15px;
+  margin-left: auto;
+  margin-right: auto;
+  width: 60px;    
+}
+
+.post-time {
+  color: #a1a1a7;
+  font-size: 1rem;
+  margin-bottom: 1rem;
+  display: block;
+}
+
+.post-title-link {
+  text-decoration: none;
+}
+
+.post-title {
+  font-size: 1.6rem;
+  line-height: 2rem;
+  margin-bottom: 2rem;
+  color: var(--brand-primary);
+}
+
+.post-excerpt {
+  font-size: 1rem;
+  line-height: 1.6rem;
+  color: var(--foreground);
+  margin-bottom: 2rem;
+}
+
+.post-excerpt a {
+  color: var(--brand-primary);
+}
+
+.post-excerpt img {
+  width: 100%;
+}
+
+.post-read-button {
+  background-color: var(--brand-primary);
+  color: #ffffff;
+  padding: 1rem 1.5rem;
+  border-radius: 0.25rem;
+  font-size: 1.2rem;
+  margin-bottom: 2rem;
+  display: inline-block;
+  text-decoration: none;
+  transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out;
+}
+
+.post-read-button::hover, .post-read-button::active {
+  background-color: var(--brand-darker);
+  color: #ffffff;
+}
+
+.post-read-button::focus {
+  outline-width: 0;
+  box-shadow: var(--brand-darker) 0 0 0 0.25rem;
+  transition: box-shadow var(--global-transition-time) ease 0s;
+}
+
+.pagination {
+  display: flex;
+  margin: 2rem auto;
+  justify-content: center;
+}
+
+.pagination-link {
+  background-color: #ffffff;
+  border-left: 1px solid var(--brand-primary);
+  border-top: 1px solid var(--brand-primary);
+  border-bottom: 1px solid var(--brand-primary);
+  color: var(--brand-primary);
+  padding: 1rem 1.5rem;
+  font-size: 1.2rem;
+  margin-bottom: 2rem;
+  display: inline-block;
+  text-decoration: none;
+  transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out, border-color 0.2s ease-in-out;
+}
+
+.pagination-link:hover, .post-read-button:active {
+  background-color: var(--brand-darker);
+  border-color: var(--brand-darker);
+  color: #ffffff;
+}
+
+.pagination-link:focus {
+  outline-width: 0;
+  box-shadow: var(--brand-darker) 0 0 0 0.25rem;
+  transition: box-shadow var(--global-transition-time) ease 0s;
+}
+
+.pagination-link:first-of-type {
+  border-top-left-radius: 0.25rem; 
+  border-bottom-left-radius: 0.25rem; 
+}
+
+.pagination-link:last-of-type {
+  border-top-right-radius: 0.25rem; 
+  border-bottom-right-radius: 0.25rem; 
+  border-right: 1px solid var(--brand-primary);
+}
+
+.pagination-link-current {
+  background-color: var(--brand-primary);
+  color: #ffffff;
+}
+
+/* End home page */
+
 
 .post-content {
   text-align: justify;
@@ -223,7 +310,7 @@ a:hover {
 
 .about-content a {
   text-decoration: none;
-  color: #ffa03a;
+  color: var(--brand-primary);
 }
 
 .post-content h3 {
@@ -232,9 +319,24 @@ a:hover {
 }
 
 .post-content a {
-  color: #ffa03a;  
+  color: var(--brand-primary);  
 }
 
 .post-title {
   color: #2f313d;
+}
+
+.fab {  
+  height: 150;
+  width: 150px;
+  padding-bottom: 5rem;
+}
+
+ .fas:hover {
+   color: #000;
+ }
+
+
+article {
+  margin-top: 2rem;
 }
