@@ -1,12 +1,15 @@
 body, html {
     font-family: "Work Sans", sans-serif;
     height: 100%;
-    font-size: 24px;
+    font-size: 16px;
     line-height: 1.66667;
     color:#535358;
     margin: 0;
 }
 
+h1, h2, h3, h4, h5, h6, p {
+  margin: 0;
+}
 
 a {
   text-decoration: none;
@@ -38,7 +41,6 @@ div {
   display: block;
 }
 
-
 nav ul li {
   list-style: none;
 }
@@ -47,11 +49,17 @@ a:hover {
   color: #000;
 }
 
+.header {
+  background-color: #ffa03a;
+}
+
 .header-container {
   display: flex;
   align-items: center;
-  background-color: #ffa03a;
-  margin: 0;  
+  justify-content: space-between;
+  margin: 0 auto;
+  padding: 0.5rem 1rem;
+  max-width: 1080px;
 }
 
 .header-container a:visited {
@@ -63,20 +71,25 @@ a:hover {
 }
 
 .header-container a:link {
-  color: #ffff
+  color: #fff;
+}
+
+.header-link {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.header-icon {
+  margin-right: 0.5rem;
+  color: #fff;
 }
 
 .header-title {
   font-weight: bolder;
-  margin-left: 2rem;
   align-items: center;
-  font-size: 46px;
+  font-size: 1rem;
 }
-
-
-.fas {
-  color: #2f313d;
- }
 
 .fab {  
   height: 150;
@@ -97,10 +110,24 @@ a:hover {
  }
 
 .header-navigation {
-  align-items: center;
-  font-size: 42px;    
-  margin-left: 5rem;
 }
+
+.header-navigation-list {
+  padding: 0;
+}
+
+.header-navigation-list {
+
+}
+
+.header-navigation-list-item {
+
+}
+
+.header-navigation-list-item-link {
+  font-size: 1rem;
+}
+
 
 .hero-image {
     background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("/Images/global/space2.png");
