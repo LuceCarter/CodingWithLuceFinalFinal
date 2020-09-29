@@ -31,9 +31,9 @@
 </head>
 <div class="post-content">
   <article>
-  <time datetime="2019-06-30T00:00:00.000Z">June 30, 2019</time>
-    <h1 class="post-title">Why there is some recent content missing right now</h1> 
-    <p>So first of all, thanks for visiting my blog!
+    <time class="article-date" datetime="2019-06-30T00:00:00.000Z">June 30, 2019</time>
+      <h2 class="post-title">Why there is some recent content missing right now</h2> 
+      <p>So first of all, thanks for visiting my blog!
 You may notice it is lacking my 3 most recent posts right now. That is 100% my fault.</p>
 <p>This blog is hosted on Azure App Service. I was trying to test out a basic ASP.NET Core backend I am making for a mobile app I am working on, but the App Service I created for it wasn't showing up. I just wanted to test what I was making so I just picked the service that was showing up for now while I fix the other issue..BAD IDEA.</p>
 <p>I hadn't thought about what the existing one does and the consequences so yes you guessed it...I overwrote my blog! <em>facepalm</em></p>
@@ -43,7 +43,7 @@ You may notice it is lacking my 3 most recent posts right now. That is 100% my f
 <p>NB. If you use a minimum tier of Standard for your Azure App Service, it backs up your website. I was on Basic as I didn't think I needed more but this upgrade will probably save me pain in future.</p>
 <p>As an extra, I am considering looking into some kind of cron job that exports my contents json file to blob storage every day so if something happens again, I can rollback to the previous version and if that doesn't have the content, I can just grab the backup from storage. Watch this space for a blog post about that ;)</p>
 
-  </article>
+    </article>
 </div>
   </main>  
 </body> 

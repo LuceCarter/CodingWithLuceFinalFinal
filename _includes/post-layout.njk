@@ -6,8 +6,8 @@ layout: base-layout.njk
 </head>
 <div class="post-content">
   <article>
-  <time datetime="{{ date | dateIso }}">{{ date | dateReadable }}</time>
-    <h1 class="post-title">{{ title }}</h1> 
-    {{ content | safe }}
-  </article>
+    <time class="article-date" datetime="{{ date | dateIso }}">{{ date | dateReadable }}</time>
+      <h2 class="post-title">{{ title }}</h2> 
+      {{ content | safe }}
+    </article>
 </div>
