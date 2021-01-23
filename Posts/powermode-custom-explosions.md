@@ -51,6 +51,6 @@ After applying these settings, this is what my VS Code looks like:
 
 This is what it looks like when in action:
 
-![Gif showing custom explosion in action](../../Imagescustom-powermode-explosions/spinning.gif).
+![Gif showing custom explosion in action](../../Images/custom-powermode-explosions/spinning.gif).
 
 The gif I used of course isn't perfect as it covers the text, you would want something more subtle. But now you've learned how to do it, the world is your oyster!
